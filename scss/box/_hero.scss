@@ -1,0 +1,31 @@
+.hero{
+    background-color:#163A24;
+    padding-top: 20px;
+}
+.hero__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.hero__img{
+    margin-left: 100px;
+}
+.hero__title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #FBFAF7;
+}
+.hero__text{
+    font-size: 16px;
+    color: #FBFAF7;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 25px;
+}

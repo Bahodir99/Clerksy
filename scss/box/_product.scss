@@ -1,0 +1,32 @@
+.product{
+    background-color:#163A24;
+}
+.product__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 100px 40px;
+}
+.product__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    list-style: none;
+    color: white;
+    margin-top: 80px;
+    text-align: center
+}
+.product__title{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+.product__text{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.product__item img{
+    margin-bottom: 15px;
+}

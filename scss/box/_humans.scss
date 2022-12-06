@@ -1,0 +1,25 @@
+.humans{
+    background-color:#F2EFE6;
+}
+.humans__inner{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.humans__title{
+    text-align: center;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+    padding-top: 120px;
+    margin-bottom: 40px;
+}
+.humans__text{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.humans__pic{
+    padding-bottom: 160px;
+}
