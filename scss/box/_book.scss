@@ -1,0 +1,35 @@
+.book{
+    background-color: white;
+}
+.book__inner{
+    padding: 50px 20px;
+}
+.book__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.book__title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+.book__text{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.book__link{
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 40px;
+    color: #FBFAF7;
+    transition: all ease 0.8s;
+}
+.book__link:hover{
+    background-color:#F7BC28;
+    color: #198C36;
+}
