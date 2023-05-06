@@ -3,6 +3,7 @@
     background-image: url(../../img/bgimage_right.png), url(../../img/bgiimage_left.png);
     background-repeat: no-repeat;
     background-position: right bottom, left bottom;
+    max-height: 450px;
 }
 .start__inner{
     display: flex;
@@ -33,7 +34,7 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
-    transition: all ease 0.8s;
+    transition: ease 0.8s;
 }
 .start__link:hover{
     background-color:rgba(0, 255, 255, 0.488);
